@@ -1,10 +1,10 @@
 package tests;
 
-import guru.qa.pages.MainPage;
 import io.qameta.allure.*;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import pages.MainPage;
 
 import static io.qameta.allure.Allure.step;
 
@@ -22,7 +22,7 @@ public class MainTests extends BaseTest {
         step("Открытие главной страницы сайта", () ->
                 mainPage.openPage());
         step("Заполнение поисковой строки сгенерированным значением", () ->
-                mainPage.typeText(variables.searchInput));
+                mainPage.typeText(dataTest.searchInput));
         step("Проверка появившегося списка подсказок по запросу", () ->
                 mainPage.checkTipsExist());
     }
@@ -35,6 +35,6 @@ public class MainTests extends BaseTest {
         step("Открытие главной страницы сайта", () ->
                 mainPage.openPage());
         step("Проверка существования элементов из списка", () ->
-                mainPage.checkMenuPanelExist(variables.menuPanel));
+                mainPage.checkMenuPanelExist(dataTest.menuPanel));
     }
 }

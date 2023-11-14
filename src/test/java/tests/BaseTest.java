@@ -14,7 +14,6 @@ import utils.DataTest;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class BaseTest {
     DataTest dataTest = new DataTest();
 

@@ -22,7 +22,7 @@ public class BaseTest {
         Configuration.baseUrl = "https://www.tinkoff.ru";
         Configuration.pageLoadStrategy = "eager";
         Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserSize = System.getProperty("browserSize", "2560x1440");
+        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
         Configuration.browserVersion = System.getProperty("browserVersion");
 
         String selenoidUrl = System.getProperty("selenoidUrl", "selenoid.autotests.cloud");

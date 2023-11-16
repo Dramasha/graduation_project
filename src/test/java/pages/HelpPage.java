@@ -3,6 +3,7 @@ package pages;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Condition.text;
+import static com.codeborne.selenide.Condition.visible;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.webdriver;
@@ -13,7 +14,7 @@ public class HelpPage {
             menuPopover = $(byText("Еще")),
             questionsOption = $("[data-item-type='/help/what-to-do/']"),
             searchField = $("[data-qa-type='uikit/inputAutocomplete.value.input']"),
-            firstSearchTip = $("[data-qa-type='uikit/dropdown.item.title']"),
+            firstSearchTip = $("[data-qa-type='uikit/dropdown.item.title']").shouldBe(visible),
             title = $("[data-level='1']");
 
     public HelpPage hoverAndClick() {

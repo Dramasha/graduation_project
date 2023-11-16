@@ -14,7 +14,7 @@ public class HelpPage {
             menuPopover = $(byText("Еще")),
             questionsOption = $("[data-item-type='/help/what-to-do/']"),
             searchField = $("[data-qa-type='uikit/inputAutocomplete.value.input']"),
-            firstSearchTip = $("[data-qa-type='uikit/popoverBlock']").shouldHave(text("Пригласить друга в Тинькофф Инвестиции")),
+            firstSearchTip = $("[data-dropdown-item-index='0']"),
             title = $("[data-level='1']");
 
     public HelpPage hoverAndClick() {

@@ -117,7 +117,7 @@ ${TASK}
 <img src="images/screenshots/TelegramReport.jpg" alt="Telegram" width="500" height="750">
 </p>
 
-## <img src="images/logos/Selenoid.svg" width="50" height="50"/> Видео запуска тестов в Selenoid
+## <img src="images/logos/Selenoid.svg" width="50" height="50"/> Видео запуска теста в Selenoid
 
 <p align="center">
 <img src="images/gif/GifAutoTest.gif" alt="Selenoid video" width="800" height="400">

@@ -17,7 +17,7 @@
 <a href="https://www.telegram.org/"><img src="images/logos/Telegram.svg" width="50" height="50"/></a>
 </p>
 
-## <img src="images/logos/Jenkins.svg" width="50" height="50"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/tinkoff_autotests_kpoludnitsyn_new/)
+## <img src="images/logos/Jenkins.svg" width="50" height="50"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Petyukov-Tinkoff-UI-Autotests/)
 
 <p align="center">
 <img src="images/screenshots/JenkinsBuild.jpg" alt="Jenkins Page" width="1000" height="350">

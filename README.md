@@ -64,4 +64,61 @@ ${TASK}
 <img src="images/screenshots/Allure.jpg" alt="Allure report" width="1000" height="400">
 </p>
 
+### Тест-кейсы
 
+<p align="center">
+<img src="images/screenshots/AllureTestCase.jpg" alt="Test Case" width="1000" height="400">
+</p>
+
+### Графики
+
+<p align="center">
+<img src="images/screenshots/graphs1.jpg" alt="Allure-graph" width="1000" height="400">
+</p>
+<p align="center">
+<img src="images/screenshots/Graphs2.jpg" alt="Allure-graph" width="1000" height="400">
+</p>
+
+---
+
+## <img src="images/logos/AllureTestOps.svg" width="50" height="50"/> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3798/dashboards)
+
+### Dashboard
+
+<p align="center">
+<img src="images/screenshots/AllureTOdashboard.jpg" alt="TestOps dashboard" width="1000" height="400">
+</p>
+
+
+### Автоматизированные тест-кейсы
+
+<p align="center">
+<img src="images/screenshots/AllureTOtestCase.jpg" alt="TestOps test cases" width="1000" height="400">
+</p>
+
+### Запуск автоматизированных тестов в **TestOps**
+
+<p align="center">
+<img src="images/screenshots/AllureTOrunTests.jpg" alt="TestOps launch" width="1000" height="400">
+</p>
+
+### Запуск сборки из **Allure TestOps**
+
+<p align="center">
+<img src="images/screenshots/AllureTOLounches.jpg" alt="TestOps launches">
+</p>
+
+---
+
+
+### Уведомление через чат бот
+
+<p align="center">
+<img src="images/screenshots/TelegramReport.jpg" alt="Telegram" width="500" height="750">
+</p>
+
+## <img src="images/logos/Selenoid.svg" width="50" height="50"/> Видео запуска тестов в Selenoid
+
+<p align="center">
+<img src="images/gif/GifAutoTest.gif" alt="Selenoid video" width="800" height="400">
+</p>

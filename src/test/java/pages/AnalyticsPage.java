@@ -8,8 +8,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 public class AnalyticsPage {
     private final SelenideElement
-            menuPopover = $(byText("Частным лицам")),
-            analyticsOption = $("[data-test=text-item-1-4-wrapper]"),
             recentNewsBlock = $$("[data-qa-file=ResearchRecentNews]").get(0),
             commentBlock = $("[data-qa-file=ProfilePostFormUnauthorized]").$(byText("Ваш комментарий...")),
             post = $("[data-qa-tag=PulsePost]"),

@@ -17,11 +17,26 @@
 <a href="https://www.telegram.org/"><img src="images/logos/Telegram.svg" width="50" height="50"/></a>
 </p>
 
+---
+
+## Содержание проекта
+
+- <a href="#buildJenkins"> Cборка в Jenkins</a>
+- <a href="#allureReport"> Пример Allure отчета</a>
+- <a href="#integrationAllureTO"> Интеграция с Allure TestOps</a>
+- <a href="#telegramReport"> Уведомления в телеграм с использованием бота</a>
+- <a href="#video"> идео запуска теста в Selenoid</a>
+
+
+---
+
+<a id="buildJenkins"></a>
 ## <img src="images/logos/Jenkins.svg" width="50" height="50"/> Сборка в [Jenkins](https://jenkins.autotests.cloud/job/Petyukov-Tinkoff-UI-Autotests/)
 
 <p align="center">
 <img src="images/screenshots/JenkinsBuild.jpg" alt="Jenkins Page" width="1000" height="350">
 </p>
+
 
 ### Параметры сборки проекта
 
@@ -56,6 +71,9 @@ ${TASK}
 -DremoteUrl=${REMOTE_URL}
 ```
 
+---
+
+<a id="allureReport"></a>
 ## <img src="images/logos/Allure.svg" width="50" height="50"/> [Allure](https://jenkins.autotests.cloud/job/Petyukov-Tinkoff-UI-Autotests/1/allure/) отчет
 
 ### Главная страница отчета
@@ -81,6 +99,7 @@ ${TASK}
 
 ---
 
+<a id="integrationAllureTO"></a>
 ## <img src="images/logos/AllureTestOps.svg" width="50" height="50"/> Интеграция с [Allure TestOps](https://allure.autotests.cloud/project/3798/dashboards)
 
 ### Dashboard
@@ -110,13 +129,16 @@ ${TASK}
 
 ---
 
-
+<a id="telegramReport"></a>
 ### Уведомление через чат бот
 
 <p align="center">
 <img src="images/screenshots/TelegramReport.jpg" alt="Telegram" width="500" height="750">
 </p>
 
+---
+
+<a id="video"></a>
 ## <img src="images/logos/Selenoid.svg" width="50" height="50"/> Видео запуска теста в Selenoid
 
 <p align="center">

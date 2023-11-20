@@ -3,6 +3,7 @@ package tests;
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.logevents.SelenideLogger;
+import drivers.WebProvider;
 import helpers.Attach;
 import io.qameta.allure.selenide.AllureSelenide;
 import org.junit.jupiter.api.AfterEach;
@@ -19,14 +20,7 @@ public class BaseTest {
 
     @BeforeAll
     static void beforeAll() {
-        Configuration.baseUrl = "https://www.tinkoff.ru";
-        Configuration.pageLoadStrategy = "eager";
-        Configuration.browser = System.getProperty("browser", "chrome");
-        Configuration.browserSize = System.getProperty("browserSize", "1920x1080");
-        Configuration.browserVersion = System.getProperty("browserVersion");
-
-        String selenoidUrl = System.getProperty("selenoidUrl", "selenoid.autotests.cloud");
-        Configuration.remote = "https://user1:1234@" + selenoidUrl + "/wd/hub";
+        WebProvider.config();
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         Map<String, Object> value = new HashMap<>();

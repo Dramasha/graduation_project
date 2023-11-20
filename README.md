@@ -1,7 +1,7 @@
 # Проект автоматизации тестов для сайта компании [Tinkoff](https://www.tinkoff.ru)
 <p align="center"><a href="https://www.tinkoff.ru"><img src="images/logos/Tinkoff.png" align="center" width="600" height="300"  alt="Java"/></a></p>
 
-## 💻 What i use
+## 💻 Что я использую
 <p align="center">
 <a href="https://www.java.com/"><img src="images/logos/Java.svg" width="50" height="50"/></a>
 <a href="https://www.jetbrains.com/idea/"><img src="images/logos/Intelij_IDEA.svg" width="50" height="50"/></a>

@@ -25,7 +25,7 @@
 - <a href="#allureReport"> Пример Allure отчета</a>
 - <a href="#integrationAllureTO"> Интеграция с Allure TestOps</a>
 - <a href="#telegramReport"> Уведомления в телеграм с использованием бота</a>
-- <a href="#video"> идео запуска теста в Selenoid</a>
+- <a href="#video"> Видео запуска теста в Selenoid</a>
 
 
 ---

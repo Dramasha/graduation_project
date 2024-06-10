@@ -10,7 +10,7 @@ import static io.qameta.allure.Allure.step;
 
 @Tag("loans")
 @Feature("Проверка раздела 'Кредиты и ипотека'")
-@Owner("Overloque")
+@Owner("Dramasha")
 public class CreditTests extends BaseTest {
     CreditPage creditPage = new CreditPage();
 

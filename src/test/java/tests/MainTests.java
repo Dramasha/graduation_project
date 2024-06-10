@@ -10,7 +10,7 @@ import static io.qameta.allure.Allure.step;
 
 @Tag("main")
 @Feature("Проверка главной страницы")
-@Owner("Overloque")
+@Owner("Dramasha")
 public class MainTests extends BaseTest {
     MainPage mainPage = new MainPage();
 

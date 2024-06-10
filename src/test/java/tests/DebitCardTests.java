@@ -10,7 +10,7 @@ import static io.qameta.allure.Allure.step;
 
 @Tag("debit")
 @Feature("Проверка раздела 'Дебетовые карты'")
-@Owner("Overloque")
+@Owner("Dramasha")
 public class DebitCardTests extends BaseTest {
     DebitCardPage debitCardPage = new DebitCardPage();
 

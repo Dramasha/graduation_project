@@ -10,7 +10,7 @@ import static io.qameta.allure.Allure.step;
 
 @Tag("savings")
 @Feature("Проверка раздела 'Вклады'")
-@Owner("Overloque")
+@Owner("Dramasha")
 public class SavingsTests extends BaseTest {
     SavingsPage savingsPage = new SavingsPage();
 
